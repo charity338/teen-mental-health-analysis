@@ -20,16 +20,26 @@ survey_stress = st.slider("Survey Stress Score (1-10)", 1, 10, 5)
 
 # Predict button
 if st.button("Predict Stress Level"):
-    input_df = pd.DataFrame([{
-        "age": age,
-        "screen_time_hours": screen_time,
-        "sleep_hours": sleep,
-        "exercise_hours": exercise,
-        "social_media_hours": social_media,
-        "survey_stress_score": survey_stress
-    }])
+    input_df = pd.DataFrame([[
+    age,
+    social_media,
+    exercise,
+    sleep,
+    screen_time,
+    survey_stress
+]], columns=[
+    "age",
+    "social_media_hours",
+    "exercise_hours",
+    "sleep_hours",
+    "screen_time_hours",
+    "survey_stress_score"
+])
+
     
     prediction = model.predict(input_df)[0]
     stress_label = le.inverse_transform([prediction])[0]
     
     st.success(f"Predicted Stress Level: **{stress_label}** 🧠")
+
+
