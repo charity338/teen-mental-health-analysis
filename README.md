@@ -4,6 +4,12 @@
 This project uses machine learning to predict whether a teen is in a **Low**, **Medium**, or **High** stress state based on their daily behaviors, like screen time, sleep, social media use, and physical activity.
 
 
+> A Streamlit-powered machine learning app that predicts whether a teen is in a **Low**, **Medium**, or **High** stress state based on their lifestyle behaviors like screen time, sleep, exercise, and social media use
+
+## 🔗 Live Demo
+ https://teen-mental-health-analysis-cqvhhvnzbcxydfetbjfw3b.streamlit.app/    
+
+ 
 ![image](https://github.com/user-attachments/assets/bd5253fe-6d6b-4f3d-8124-4e8642ac1a2c)
 
 
@@ -12,7 +18,9 @@ This project uses machine learning to predict whether a teen is in a **Low**, **
 
 Adolescent mental health is a growing concern worldwide. Rising stress levels are frequently linked to digital overexposure, poor sleep, and sedentary lifestyles. But without data, it's hard to take informed action.
 
-This project aims to bridge that gap. By analyzing behavioral data from 5,000 teens, including screen time, exercise, sleep, and social habits, we trained a machine learning model to classify their **stress levels** (Low, Medium, High) based on **wearable stress scores**.
+This project aims to bridge that gap. 
+
+By analyzing behavioral data from 5,000 teens, including screen time, exercise, sleep, and social habits, we trained a machine learning model to classify their **stress levels** (Low, Medium, High) based on **wearable stress scores**.
 
 The goal is to offer:
 - A behavioral lens on mental health
@@ -31,6 +39,7 @@ Build a model that uses behavioral data to predict teen stress levels, enabling 
 
 - **Python**: pandas, scikit-learn, seaborn, matplotlib
 - **Google Colab**: development environment
+-  **Streamlit:** Web app deployment
 - **GitHub**: version control and documentation
 - **Machine Learning**: Random Forest Classifier (classification model)
 
@@ -124,6 +133,8 @@ This project can inform:
 
 
 teen-mental-health-analysis/
+
+├── app.py # Streamlit app
 
 ├── data/ # (Dataset - not uploaded to GitHub)
 
