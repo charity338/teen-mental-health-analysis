@@ -12,7 +12,7 @@ This project uses machine learning to predict whether a teen is in a **Low**, **
 
 Adolescent mental health is a growing concern worldwide. Rising stress levels are frequently linked to digital overexposure, poor sleep, and sedentary lifestyles. But without data, it's hard to take informed action.
 
-This project aims to bridge that gap. By analyzing behavioral data from 5,000 teens — including screen time, exercise, sleep, and social habits — we trained a machine learning model to classify their **stress levels** (Low, Medium, High) based on **wearable stress scores**.
+This project aims to bridge that gap. By analyzing behavioral data from 5,000 teens, including screen time, exercise, sleep, and social habits, we trained a machine learning model to classify their **stress levels** (Low, Medium, High) based on **wearable stress scores**.
 
 The goal is to offer:
 - A behavioral lens on mental health
@@ -36,7 +36,7 @@ Build a model that uses behavioral data to predict teen stress levels, enabling 
 
 ---
 
-## 📦 Dataset Overview
+##  Dataset Overview
 
 | Column Name            | Description                                   |
 |------------------------|-----------------------------------------------|
@@ -91,7 +91,8 @@ Build a model that uses behavioral data to predict teen stress levels, enabling 
 
 ## 📈 Feature Importance
 
-![Feature Importance](visuals/feature_importance.png)
+![download](https://github.com/user-attachments/assets/b4d60943-55f8-42e7-904c-c577e117eda6)
+
 
 The most influential predictors were:
 - **Screen time hours**
@@ -109,7 +110,7 @@ The most influential predictors were:
 
 ---
 
-## 🌐 Real-World Applications
+##  Real-World Applications
 
 This project can inform:
 - **School counselors**: Early flagging of at-risk students
@@ -123,10 +124,15 @@ This project can inform:
 
 
 teen-mental-health-analysis/
+
 ├── data/ # (Dataset - not uploaded to GitHub)
+
 ├── notebooks/ # Colab notebooks (EDA + Modeling)
+
 ├── visuals/ # Plots and images (confusion matrix, etc.)
+
 ├── README.md # Project documentation
+
 └── requirements.txt # Python dependencies (optional)
 
 ##  Impact
