@@ -7,7 +7,11 @@ This project uses machine learning to predict whether a teen is in a **Low**, **
 > A Streamlit-powered machine learning app that predicts whether a teen is in a **Low**, **Medium**, or **High** stress state based on their lifestyle behaviors like screen time, sleep, exercise, and social media use
 
 ## 🔗 Live Demo
- https://teen-mental-health-analysis-cqvhhvnzbcxydfetbjfw3b.streamlit.app/    
+ https://teen-mental-health-analysis-cqvhhvnzbcxydfetbjfw3b.streamlit.app/   
+
+ ## 🎥 Demo Video
+
+👉 [Click here to watch the demo](demo.mp4.mp4)
 
  
 ![image](https://github.com/user-attachments/assets/bd5253fe-6d6b-4f3d-8124-4e8642ac1a2c)
